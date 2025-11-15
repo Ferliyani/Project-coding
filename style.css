@@ -23,6 +23,44 @@ header {
   padding: 18px 24px;
   box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
 }
+/* ========== EXTRA MOBILE OPTIMIZATION ========== */
+@media (max-width: 600px) {
+
+  /* Container lebih rapat di HP */
+  .container {
+    margin: 12px auto;
+    padding: 0 12px;
+  }
+
+  /* Hero card lebih compact */
+  .hero {
+    padding: 16px;
+    gap: 14px;
+  }
+
+  /* Judul dan teks mengecil sedikit */
+  h1, h2, h3 {
+    line-height: 1.3;
+  }
+
+  p, li {
+    font-size: 15px;
+  }
+
+  /* Sidebar tombol full width */
+  .sidebar .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Logo mengecil sedikit */
+  .logo {
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+  }
+}
+
 
 .container {
   max-width: 980px;
@@ -172,3 +210,4 @@ footer {
     align-items: flex-start;
   }
 }
+
