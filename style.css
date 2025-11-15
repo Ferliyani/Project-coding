@@ -159,6 +159,24 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  /* Tetap tampil di HP, hanya ubah jadi vertikal */
+  .navlist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .brand {
+    justify-content: space-between;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
   /* Navigasi jadi dropdown mobile */
   nav {
     position: relative;
