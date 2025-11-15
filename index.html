@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ferli Yani - Teori Atom</title>
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#0b74de;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;background:var(--bg);color:#0f172a}
+    header{background:linear-gradient(90deg,#eef2ff, #f0f9ff);padding:18px 24px;box-shadow:0 1px 4px rgba(15,23,42,0.06)}
+    .container{max-width:980px;margin:26px auto;padding:0 18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:52px;height:52px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:white;font-weight:700}
+    nav{margin-left:auto}
+    .navlist{display:flex;gap:12px}
+    .navlist a{text-decoration:none;color:var(--accent);font-weight:600;padding:8px;border-radius:6px}
+    .navlist a:hover{background:rgba(11,116,222,0.08)}
+    header .topbar{display:flex;align-items:center;gap:18px}
+    main{margin-top:18px}
+    .hero{display:flex;align-items:center;justify-content:space-between;gap:20px;background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 18px rgba(11,116,222,0.04)}
+    .hero h1{margin:0;font-size:24px}
+    .hero p{margin:8px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.03)}
+    h2{margin-top:0}
+    ul{padding-left:20px}
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:14px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.navlist{display:none}.brand{justify-content:space-between}.hero{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <div class="logo" > <img src="image/ferli.jpg" class="logo" ></div>
+        <div>
+          <div style="font-weight:700">Ferli Yani</div>
+          <div style="font-size:13px;color:var(--muted)">NPM : A1F025049 - Teori Atom</div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="navlist">
+          <a href="#home">Home</a>
+          <a href="about.html">About me</a>
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Resource</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div>
+        <h1>Selamat datang di Ferli Yani</h1>
+        <p>Ringkasan singkat tentang teori atom — mulai dari model awal hingga model modern (atom sebagai susunan inti dan elektron).</p>
+      </div>
+      <div style="text-align:right;color:var(--muted)">
+        <div style="font-size:12px">Simple educational site</div>
+        <div style="font-weight:600;margin-top:6px">Teori Atom</div>
+      </div>
+    </section>
+    <div class="grid">
+      <div>
+        <article class="card">
+          <h2>Apa itu Teori Atom?</h2>
+          <img src="image/teori atom.jfif">
+          <p>Teori atom menyatakan bahwa materi tersusun dari atom, unit terkecil yang tidak dapat dibagi lagi. Perkembangan teori ini diawali dari model atom bola pejal Dalton, yang kemudian disempurnakan menjadi model Thomson (roti kismis), Rutherford (inti positif dan elektron mengelilingi), dan akhirnya model atom modern atau model mekanika kuantum, yang menggambarkan elektron dalam bentuk orbital dan tidak memiliki lintasan pasti. 
+</p>
+
+
+          <h3>Perkembangan singkat model atom</h3>
+          
+          <ul>
+            <li><strong>Model Dalton (1803)</strong> — atom sebagai partikel padat tidak terbagi.</li>
+            <li><strong>Model Thomson (1904)</strong> — "plum pudding", elektron tersebar dalam muatan positif.</li>
+            <li><strong>Model Rutherford (1911)</strong> — inti kecil bermuatan positif; elektron mengelilingi inti.</li>
+            <li><strong>Model Bohr (1913)</strong> — elektron pada tingkat energi diskrit.</li>
+            <li><strong>Model Mekanika Kuantum (modern)</strong> — elektron sebagai gelombang kemungkinan (orbital).</li>
+          </ul>
+
+          <h3>Komponen utama atom</h3>
+          <ul>
+            <li><strong>Proton</strong> — bermuatan positif, berada di inti.</li>
+            <li><strong>Neutron</strong> — tidak bermuatan (netral), berada di inti.</li>
+            <li><strong>Elektron</strong> — bermuatan negatif, berada di sekitar inti dalam orbital.</li>
+          </ul>
+
+          <p>Untuk materi lebih lanjut, buka bagian <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Resource</a> (Google).</p>
+        </article>
+      </div>
+
+      <aside class="card">
+        <h3>Ringkasan Cepat</h3>
+        <p style="color:var(--muted)">Klik <strong>Resource</strong> di navigasi atau tombol berikut untuk mencari lebih banyak materi di Google.</p>
+        <p style="margin-top:12px"><a href="https://www.google.com" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;border:1px solid rgba(11,116,222,0.12);font-weight:600">Buka Google</a></p>
+
+        <h4 style="margin-top:18px">Kontak</h4>
+        <p style="margin:6px 0;color:var(--muted)">Email: <span style="color:#0b74de;font-weight:600">ferli@example.com</span></p>
+      </aside>
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> Ferli Yani • Project website coding
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
