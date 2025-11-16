@@ -67,7 +67,7 @@ header {
 .navlist a {
   text-decoration: none;
   color: var(--accent);
-  font-weight: 100;
+  font-weight: 600;
   padding: 8px;
   border-radius: 6px;
 }
@@ -138,14 +138,14 @@ footer {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .grid {
     grid-template-columns: 1fr;
   }
 
   /* NAVBAR berubah vertikal */
   nav {
-    width: 30%;
+    width: 100%;
   }
 
   .navlist {
@@ -160,16 +160,11 @@ footer {
 
   .navlist.show {
     display: flex;
-     font-size: 28px;
-    align-items: center;
   }
 
   .menu-toggle {
-    display: flex;
-    font-size: 28px;
-    align-items: center;
+    display: block;
   }
-
 
   /* HERO STACK */
   .hero {
@@ -188,4 +183,3 @@ footer {
     height: 44px;
   }
 }
-
