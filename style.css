@@ -67,7 +67,7 @@ header {
 .navlist a {
   text-decoration: none;
   color: var(--accent);
-  font-weight: 600;
+  font-weight: 100;
   padding: 8px;
   border-radius: 6px;
 }
@@ -188,3 +188,4 @@ footer {
     height: 44px;
   }
 }
+
